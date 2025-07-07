@@ -55,6 +55,7 @@ int main(){
     if(a==4){
         cout<<"タスク名称の入力を待機"<<endl;
         string name;
+        cin>>name;
         cout<<w.getWorkLimit(name)<<endl;
     }
     savefile(w);

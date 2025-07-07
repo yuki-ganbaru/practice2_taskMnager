@@ -4,7 +4,7 @@ using namespace std;
     Work::Work(){};
     void Work::addwork(string n,string d){
        limit_to_work[d][n]=n;
-       work_to_limit[d]=n;
+       work_to_limit[n]=d;
     }
 
     void Work::removework(string n){
